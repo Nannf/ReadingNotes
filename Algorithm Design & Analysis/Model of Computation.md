@@ -164,10 +164,30 @@ Rebuild the world with 0s and 1s.
 
 抽象的算法基于抽象的机器才能运行。
 
+- 抽象的机器的标准操作在实际的机器上一定有对应的实现；
+- 且可以在有限步骤之内进行模拟实现
+
 抽象的机器就是计算模型。
 
 - 图灵机
 - RAM model
+
+
+
+#### RAM Model
+
+##### 标准构成
+
+- Read-only input tape
+- Program
+- Location counter
+- Accumulator
+- Memory
+- Write-only output tape
+
+
+
+ter
 
 
 
