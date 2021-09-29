@@ -187,7 +187,33 @@ Rebuild the world with 0s and 1s.
 
 
 
-ter
+##### 特性
+
+- Each **simple operation** takes one time step
+  - +/-
+  - memory access
+- Non-simple operations shoule be decomposed
+  - Loop
+  - Subroutine
+- Memory
+  - Memory access is simple operation
+  - Unlimited memory
+
+
+
+很简化
+
+
+
+##### 为什么使用RAM 不用图灵机
+
+- 模型精细->越难用，越复杂
+
+讲授基础知识，基本内容，RAM足矣。图灵机相对而言太复杂了。
+
+
+
+
 
 
 
