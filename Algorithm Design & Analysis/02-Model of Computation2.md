@@ -42,5 +42,22 @@ Output: gcd (m,n)（问题要求的输出）
 
 
 
+#### 数学归纳法
+
+- 对什么做归纳
+
+- Induction on n
+  - Base case
+    - n = 0: for any m, Euclid(m,0) = m;
+    - n = 1; for any m, Euclid(m,1) = 1;
+  - Assumption
+    - For any n ≤ N, Euclid(m,n) is correct;
+  - Induction
+    - Euclid(m,N+1)=Euclid(N+1,m mod (N+1));
+
+
+
+
+
 
 
